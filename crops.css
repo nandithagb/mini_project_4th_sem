@@ -1,0 +1,46 @@
+.box1
+{
+    padding-top: 50px;
+    display: flex;
+    padding-left: 50px;
+}
+.b1
+{
+    padding-right: 50px;
+    width:500px;
+    height: 250px;
+    margin-right: 150px;
+}
+.b2
+{
+   
+    width: 500px;
+    height: 250px;
+}
+.box2
+{
+    padding-top: 50px;
+    display:flex;
+    padding-left: 50px;
+}
+.b3
+{
+    
+    width: 500px;
+    height: 250px;
+    margin-right:150px;
+}
+.b4
+{
+    padding-left: 50px;
+    width: 500px;
+    height: 250px;
+}
+.h1 {
+   text-align: center;
+}
+.image{
+    width:10%;
+    height:10%;
+    padding-top:10px;
+  }

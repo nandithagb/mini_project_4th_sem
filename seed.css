@@ -1,0 +1,46 @@
+.title{
+    color: black;
+    padding: 10px;
+     font-size: larger;
+     font-weight: bold;
+  }
+  
+  .seed-description{
+     text-align: center;
+      .seed{
+           height:100%;
+           
+         
+          padding: 15px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap:10px;
+          
+      
+          .seed-img
+          {
+              object-fit: cover;
+              height: 84%;
+              max-width: 90%;
+          }
+          .seed-name{
+              height: 8%;
+          }
+      
+      }
+      .description{
+          width:60%;
+      }
+  }
+  
+  
+  
+  
+  
+  .incdec{
+      width:200px;
+      height:20px;
+      border: 5px solid #555;
+      padding: 15px;
+  }

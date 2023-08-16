@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jowar</title>
+    <link href="jowar.css" rel="stylesheet">
+</head>
+<bodybgcolor="#EOFFFF">
+    <marquee><h3><b>KISAAN MITRA</b></h3></marquee>
+    <h1>JOWAR</h1>
+    <div class="image" ><img src="jowar.jpg"/>
+
+    </div>
+    <h2>Introduction</h2>
+    <form>
+    <label>
+        <b>JOWAR CULTIVATION</b>
+        <br/><select name="JOWAR CULTIVATION" id="JOWAR CULTIVATION">
+        onchage="location=this.value;">
+    <option></option>
+    <option vaue="nothing" selected="selected">select a choice</option>
+<option value="http://127.0.0.1:5500/landj.html">LAND PREPARATION</option>
+<option value="http://127.0.0.1:5500/varj.html">VARIETIES</option>
+<option value="http://127.0.0.1:5500/seedj.html">SEED TREATMENT</option>
+<option value="http://127.0.0.1:5500/sowj.html">SOWING</option>
+<option value="http://127.0.0.1:5500/nutrientj.html">NUTRIENT MANAGENT</option>
+<option value="http://127.0.0.1:5500/waterj.html">WATER MANAGEMENT</option>
+<option value="http://127.0.0.1:5500/weedj.html">WEED CONTROL</option>
+<option value="http://127.0.0.1:5500/plantpj.html">PLANT PROTECTION</option>
+<option value="http://127.0.0.1:5500/postharvesj.html">POST HARVESTING</option>
+</select>
+        
+    </label>
+    </form>
+    <script type="text/javascript">
+        var urlMenu = document.getElementById('JOWAR CULTIVATION');
+        urlMenu.onchange=function() {
+            var userOption =this.options[this.selectedIndex];
+            if(userOption.value!="nothing")
+            {
+                window.open(userOption.value,"landj page","");
+            }
+        }
+    </script>
+    <h3>Jowar growing situation</h3>
+    <p>Sorghum (Sorghum vulgare Pers.), popularly known as jowar, is the most important food and fodder crop of dryland agriculture. The annual area under it ranges between 17 and 18 million hectares and the annual production between 8 and 10 million tonnes.<br>
+
+        Sorghum is originated in India and Africa. It is also said that its origin is Abyssinia and from there it was brought to USA and European countries.<br>
+        
+        Jowar is mainly concentrated in the peninsular and central India. Maharashtra, Karnataka, Andhra Pradesh, Madhya Pradesh, Gujarat, Rajasthan, Uttar Pradesh (the Bundelkhand region) and Tamil Nadu are the major jowar – growing states. Other states grow sorghum in small areas primarily for fodder.<br>
+        
+        The sorghum grain is used primarily as human food in various forms, such as roti or bhakri (unleavened bread), or is cooked like rice. Sorghums are also malted, popped and several local preparations are made. Green and dried fodder is the most important roughage for feeding cattle throughout the country. The utilization of grain sorghum as a cattle feed, poultry ration and other industrial uses is at present not very significant, although considerable scope exists.<br></p>
+</body>
+</html>

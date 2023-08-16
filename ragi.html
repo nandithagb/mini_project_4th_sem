@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAGI</title>
+    <link href="ragi.css" rel="stylesheet">
+</head>
+<body bgcolor="#EOFFFF">
+    <a href="http://127.0.0.1:5500/crops.html"><button type="button" class="btn btn-outline-primary">	<span>	&#8826	</span>	</button>
+
+    <marquee><h3><b>KISAAN MITRA</b></h3></marquee>
+    <h1>RAGI</h1>
+    <div class="image" ><img src="ragi.webp"/>
+        <H4>SHOPPING</H4><BR>
+            <div class="shopping">
+          
+              <a href="http://127.0.0.1:5500/ragishopping.html"target="_blank"> <button>RAGI SHOPPING</button></a><br>
+    <h2>Introduction</h2>
+    <form>
+        <label>
+            <b>RAGI CULTIVATION</b>
+            <br/><select name="RAGI CULTIVATION" id="RAGI CULTIVATION">
+            onchage="location=this.value;">
+        <option></option>
+        <option vaue="nothing" selected="selected">select a choice</option>
+    <option value="http://127.0.0.1:5500/landr.html"target="_blank">LAND PREPARATION</option>
+    <option value="http://127.0.0.1:5500/varr.html"target="_blank">VARIETIES</option>
+    <option value="http://127.0.0.1:5500/ptr.html"target="_blank">PRODUCTION TECHNOLOGY</option>
+    <option VALUE="http://127.0.0.1:5500/insectsr.html"target="_blank">INSECTS</option>
+    <option VALUE="http://127.0.0.1:5500/dieseasesr.html"target="_blank">DISEASES</option>
+     <option value="http://127.0.0.1:5500/phr.html"target="_blank">POST HARVESTING</option>
+    </select>
+            
+        </label>
+        </form>
+        <script type="text/javascript">
+            var urlMenu = document.getElementById('RAGI CULTIVATION');
+            urlMenu.onchange=function() {
+                var userOption =this.options[this.selectedIndex];
+                if(userOption.value!="nothing")
+                {
+                    window.open(userOption.value,"landj page","");
+                }
+            }
+        </script>
+    <h3>Ragi growing situation</h3>
+    <p>Line sowing is beneficial - helps in inter cultivation and control of weeds effectively. Maintenance of optimum plant population of 4- 5 lakh plants per ha is important.<br>
+
+        Apply manure, fertilizer after land preparation.<br>
+        Transplanting should be closed Spacing – Early variety – 20x10cm, Medium duration varieties 22.5 x 10cm.<br>
+        The base of plant should be covered with soil when the next furrow is drawn.<br>
+        Shallow planting within 5 cm depth encourages quick establishment & better tillering.<br>
+        </p>
+</body>
+</html>
